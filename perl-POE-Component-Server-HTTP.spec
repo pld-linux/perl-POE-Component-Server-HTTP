@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	POE
-%define	pnam	Component-Server-HTTP
+%define		pdir	POE
+%define		pnam	Component-Server-HTTP
 Summary:	POE::Component::Server::HTTP - foundation of a POE HTTP Daemon
 Summary(pl):	POE::Component::Server::HTTP - podstawa demona HTTP dla POE
 Name:		perl-POE-Component-Server-HTTP
