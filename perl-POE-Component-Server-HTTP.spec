@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	POE
 %define	pnam	Component-Server-HTTP
-Summary:	POE::Component::Server::HTTP - Foundation of a POE HTTP Daemon
+Summary:	POE::Component::Server::HTTP - foundation of a POE HTTP Daemon
 Summary(pl):	POE::Component::Server::HTTP - podstawa demona HTTP dla POE
 Name:		perl-POE-Component-Server-HTTP
 Version:	0.04
