@@ -8,13 +8,13 @@
 Summary:	POE::Component::Server::HTTP - foundation of a POE HTTP Daemon
 Summary(pl):	POE::Component::Server::HTTP - podstawa demona HTTP dla POE
 Name:		perl-POE-Component-Server-HTTP
-Version:	0.04
+Version:	0.05
 Release:	1
 # same as [perl-]POE (same as perl)
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d6713f8064552b8ab5c192b182461bc7
+# Source0-md5:	8072860ca1eca13a28325b908397bce0
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
