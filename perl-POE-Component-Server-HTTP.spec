@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Component-Server-HTTP
 Summary:	POE::Component::Server::HTTP - foundation of a POE HTTP Daemon
-Summary(pl):	POE::Component::Server::HTTP - podstawa demona HTTP dla POE
+Summary(pl.UTF-8):   POE::Component::Server::HTTP - podstawa demona HTTP dla POE
 Name:		perl-POE-Component-Server-HTTP
 Version:	0.09
 Release:	1
@@ -30,10 +30,10 @@ POE::Component::Server::HTTP (PoCo::HTTPD) is a framework for building
 custom HTTP servers based on POE. It is loosely modeled on the ideas
 of apache and the mod_perl/Apache module.
 
-%description -l pl
+%description -l pl.UTF-8
 POE::Component::Server::HTTP (PoCo::HTTPD) to szkielet do tworzenia
-w≥asnych serwerÛw HTTP opartych na POE. Jest swobodnie ukszta≥towany
-na ideach Apache'a i modu≥u mod_perl.
+w≈Çasnych serwer√≥w HTTP opartych na POE. Jest swobodnie ukszta≈Çtowany
+na ideach Apache'a i modu≈Çu mod_perl.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
