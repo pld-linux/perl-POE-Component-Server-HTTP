@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Component-Server-HTTP
 Summary:	POE::Component::Server::HTTP - foundation of a POE HTTP Daemon
-Summary(pl.UTF-8):   POE::Component::Server::HTTP - podstawa demona HTTP dla POE
+Summary(pl.UTF-8):	POE::Component::Server::HTTP - podstawa demona HTTP dla POE
 Name:		perl-POE-Component-Server-HTTP
 Version:	0.09
 Release:	1
