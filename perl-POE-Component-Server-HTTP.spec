@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	POE
 %define		pnam	Component-Server-HTTP
+%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Component::Server::HTTP - foundation of a POE HTTP Daemon
 Summary(pl.UTF-8):	POE::Component::Server::HTTP - podstawa demona HTTP dla POE
 Name:		perl-POE-Component-Server-HTTP
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d20963ebc65bebea4c863813861b9985
+URL:		http://search.cpan.org/dist/POE-Component-Server-HTTP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
